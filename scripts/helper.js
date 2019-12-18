@@ -7,7 +7,7 @@ class Helper {
   };
 };
 
-const helper = new Helper ();
+const helper = new Helper();
 
 
 /*  const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
