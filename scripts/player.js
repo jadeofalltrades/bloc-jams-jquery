@@ -14,10 +14,11 @@ class Player {
     return this.soundObject.getTime();
   }
 
-  prettyTime (timeInSeconds = this.soundObject.getDuration(song)) {
-    const min = Math.floor((timeInSeconds/60));
-    const sec = ((timeInSeconds%60));
-    return (min + ":" + sec);
+  prettyTime (timeInSeconds) {
+    const duration = player.currentlyPlaying.duration;
+    const min = math.floor(timeInSeconds/60);
+    const sec = math.floor(timeInSeconds - min * 60);
+    return `${min}:${sec}`;
   }
 
   playPause (song = this.currentlyPlaying) {

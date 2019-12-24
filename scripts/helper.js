@@ -8,10 +8,3 @@ class Helper {
 };
 
 const helper = new Helper();
-
-
-/*  const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
-  const nextSongIndex = currentSongIndex + 1;
-  const prevSongIndex = currentSongIndex - 1;
-  const prevSong = album.songs[prevSongIndex];
-  const nextSong = album.songs[nextSongIndex];*/
